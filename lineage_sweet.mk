@@ -13,9 +13,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
+TARGET_BOOT_ANIMATION_RES := 1080
 RISING_CHIPSET := sm6150
-RISING_PACKAGE_TYPE := "VANILLA AOSP"
+#RISING_PACKAGE_TYPE := "VANILLA AOSP"
 TARGET_HAS_UDFPS := false
 #TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_BUILD_GRAPHENEOS_CAMERA := true
